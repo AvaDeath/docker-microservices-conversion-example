@@ -1,0 +1,12 @@
+version: '2'
+services:
+  conversion-service:
+    build: .
+    image: mtro/conversion_ex
+    command: node conversion-service.js
+    restart: always
+  arbitration-service:
+      build: .
+      image: mtro/conversion_ex
+      command: node conversion-service.js
+      restart: always

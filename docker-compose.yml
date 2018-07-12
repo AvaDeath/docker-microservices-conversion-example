@@ -6,7 +6,7 @@ services:
     command: node conversion-service.js
     restart: always
   arbitration-service:
-      build: .
-      image: mtro/conversion_ex
-      command: node conversion-service.js
-      restart: always
+    build: .
+    image: mtro/conversion_ex
+    command: node conversion-service.js
+    restart: always

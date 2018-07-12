@@ -1,0 +1,8 @@
+{
+  "name": "conversion",
+  "version": "0.0.4",
+  "description": "test",
+  "dependencies": {
+    "cote": "^0.9.0",
+  }
+}
